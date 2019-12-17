@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		079F781B23A8845700E52387 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079F781A23A8845700E52387 /* AppDelegate.swift */; };
+		079F781D23A8845700E52387 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079F781C23A8845700E52387 /* SceneDelegate.swift */; };
+		079F781F23A8845700E52387 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079F781E23A8845700E52387 /* ViewController.swift */; };
+		079F782223A8845700E52387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079F782023A8845700E52387 /* Main.storyboard */; };
+		079F782423A8845900E52387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 079F782323A8845900E52387 /* Assets.xcassets */; };
+		079F782723A8845900E52387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 079F782523A8845900E52387 /* LaunchScreen.storyboard */; };
+		079F783223A8845900E52387 /* Practice_Clima_1_connectingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079F783123A8845900E52387 /* Practice_Clima_1_connectingTests.swift */; };
+		079F783D23A8845900E52387 /* Practice_Clima_1_connectingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079F783C23A8845900E52387 /* Practice_Clima_1_connectingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		079F782E23A8845900E52387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079F780F23A8845700E52387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079F781623A8845700E52387;
+			remoteInfo = "Practice Clima 1 connecting";
+		};
+		079F783923A8845900E52387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 079F780F23A8845700E52387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 079F781623A8845700E52387;
+			remoteInfo = "Practice Clima 1 connecting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		079F781723A8845700E52387 /* Practice Clima 1 connecting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice Clima 1 connecting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079F781A23A8845700E52387 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		079F781C23A8845700E52387 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		079F781E23A8845700E52387 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		079F782123A8845700E52387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		079F782323A8845900E52387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		079F782623A8845900E52387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		079F782823A8845900E52387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079F782D23A8845900E52387 /* Practice Clima 1 connectingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice Clima 1 connectingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079F783123A8845900E52387 /* Practice_Clima_1_connectingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_Clima_1_connectingTests.swift; sourceTree = "<group>"; };
+		079F783323A8845900E52387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079F783823A8845900E52387 /* Practice Clima 1 connectingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practice Clima 1 connectingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		079F783C23A8845900E52387 /* Practice_Clima_1_connectingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_Clima_1_connectingUITests.swift; sourceTree = "<group>"; };
+		079F783E23A8845900E52387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079F781423A8845700E52387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079F782A23A8845900E52387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079F783523A8845900E52387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079F780E23A8845700E52387 = {
+			isa = PBXGroup;
+			children = (
+				079F781923A8845700E52387 /* Practice Clima 1 connecting */,
+				079F783023A8845900E52387 /* Practice Clima 1 connectingTests */,
+				079F783B23A8845900E52387 /* Practice Clima 1 connectingUITests */,
+				079F781823A8845700E52387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		079F781823A8845700E52387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				079F781723A8845700E52387 /* Practice Clima 1 connecting.app */,
+				079F782D23A8845900E52387 /* Practice Clima 1 connectingTests.xctest */,
+				079F783823A8845900E52387 /* Practice Clima 1 connectingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079F781923A8845700E52387 /* Practice Clima 1 connecting */ = {
+			isa = PBXGroup;
+			children = (
+				079F781A23A8845700E52387 /* AppDelegate.swift */,
+				079F781C23A8845700E52387 /* SceneDelegate.swift */,
+				079F781E23A8845700E52387 /* ViewController.swift */,
+				079F782023A8845700E52387 /* Main.storyboard */,
+				079F782323A8845900E52387 /* Assets.xcassets */,
+				079F782523A8845900E52387 /* LaunchScreen.storyboard */,
+				079F782823A8845900E52387 /* Info.plist */,
+			);
+			path = "Practice Clima 1 connecting";
+			sourceTree = "<group>";
+		};
+		079F783023A8845900E52387 /* Practice Clima 1 connectingTests */ = {
+			isa = PBXGroup;
+			children = (
+				079F783123A8845900E52387 /* Practice_Clima_1_connectingTests.swift */,
+				079F783323A8845900E52387 /* Info.plist */,
+			);
+			path = "Practice Clima 1 connectingTests";
+			sourceTree = "<group>";
+		};
+		079F783B23A8845900E52387 /* Practice Clima 1 connectingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				079F783C23A8845900E52387 /* Practice_Clima_1_connectingUITests.swift */,
+				079F783E23A8845900E52387 /* Info.plist */,
+			);
+			path = "Practice Clima 1 connectingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		079F781623A8845700E52387 /* Practice Clima 1 connecting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079F784123A8845900E52387 /* Build configuration list for PBXNativeTarget "Practice Clima 1 connecting" */;
+			buildPhases = (
+				079F781323A8845700E52387 /* Sources */,
+				079F781423A8845700E52387 /* Frameworks */,
+				079F781523A8845700E52387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practice Clima 1 connecting";
+			productName = "Practice Clima 1 connecting";
+			productReference = 079F781723A8845700E52387 /* Practice Clima 1 connecting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		079F782C23A8845900E52387 /* Practice Clima 1 connectingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079F784423A8845900E52387 /* Build configuration list for PBXNativeTarget "Practice Clima 1 connectingTests" */;
+			buildPhases = (
+				079F782923A8845900E52387 /* Sources */,
+				079F782A23A8845900E52387 /* Frameworks */,
+				079F782B23A8845900E52387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079F782F23A8845900E52387 /* PBXTargetDependency */,
+			);
+			name = "Practice Clima 1 connectingTests";
+			productName = "Practice Clima 1 connectingTests";
+			productReference = 079F782D23A8845900E52387 /* Practice Clima 1 connectingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		079F783723A8845900E52387 /* Practice Clima 1 connectingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079F784723A8845900E52387 /* Build configuration list for PBXNativeTarget "Practice Clima 1 connectingUITests" */;
+			buildPhases = (
+				079F783423A8845900E52387 /* Sources */,
+				079F783523A8845900E52387 /* Frameworks */,
+				079F783623A8845900E52387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				079F783A23A8845900E52387 /* PBXTargetDependency */,
+			);
+			name = "Practice Clima 1 connectingUITests";
+			productName = "Practice Clima 1 connectingUITests";
+			productReference = 079F783823A8845900E52387 /* Practice Clima 1 connectingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		079F780F23A8845700E52387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "UFO Xcode";
+				TargetAttributes = {
+					079F781623A8845700E52387 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					079F782C23A8845900E52387 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 079F781623A8845700E52387;
+					};
+					079F783723A8845900E52387 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 079F781623A8845700E52387;
+					};
+				};
+			};
+			buildConfigurationList = 079F781223A8845700E52387 /* Build configuration list for PBXProject "Practice Clima 1 connecting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 079F780E23A8845700E52387;
+			productRefGroup = 079F781823A8845700E52387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				079F781623A8845700E52387 /* Practice Clima 1 connecting */,
+				079F782C23A8845900E52387 /* Practice Clima 1 connectingTests */,
+				079F783723A8845900E52387 /* Practice Clima 1 connectingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		079F781523A8845700E52387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079F782723A8845900E52387 /* LaunchScreen.storyboard in Resources */,
+				079F782423A8845900E52387 /* Assets.xcassets in Resources */,
+				079F782223A8845700E52387 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079F782B23A8845900E52387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079F783623A8845900E52387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		079F781323A8845700E52387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079F781F23A8845700E52387 /* ViewController.swift in Sources */,
+				079F781B23A8845700E52387 /* AppDelegate.swift in Sources */,
+				079F781D23A8845700E52387 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079F782923A8845900E52387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079F783223A8845900E52387 /* Practice_Clima_1_connectingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		079F783423A8845900E52387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				079F783D23A8845900E52387 /* Practice_Clima_1_connectingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		079F782F23A8845900E52387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079F781623A8845700E52387 /* Practice Clima 1 connecting */;
+			targetProxy = 079F782E23A8845900E52387 /* PBXContainerItemProxy */;
+		};
+		079F783A23A8845900E52387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 079F781623A8845700E52387 /* Practice Clima 1 connecting */;
+			targetProxy = 079F783923A8845900E52387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		079F782023A8845700E52387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079F782123A8845700E52387 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		079F782523A8845900E52387 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				079F782623A8845900E52387 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		079F783F23A8845900E52387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		079F784023A8845900E52387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079F784223A8845900E52387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Practice Clima 1 connecting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ufoxcode.Practice-Clima-1-connecting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		079F784323A8845900E52387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Practice Clima 1 connecting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ufoxcode.Practice-Clima-1-connecting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		079F784523A8845900E52387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Practice Clima 1 connectingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ufoxcode.Practice-Clima-1-connectingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice Clima 1 connecting.app/Practice Clima 1 connecting";
+			};
+			name = Debug;
+		};
+		079F784623A8845900E52387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Practice Clima 1 connectingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ufoxcode.Practice-Clima-1-connectingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Practice Clima 1 connecting.app/Practice Clima 1 connecting";
+			};
+			name = Release;
+		};
+		079F784823A8845900E52387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Practice Clima 1 connectingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ufoxcode.Practice-Clima-1-connectingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Practice Clima 1 connecting";
+			};
+			name = Debug;
+		};
+		079F784923A8845900E52387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Practice Clima 1 connectingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ufoxcode.Practice-Clima-1-connectingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Practice Clima 1 connecting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079F781223A8845700E52387 /* Build configuration list for PBXProject "Practice Clima 1 connecting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F783F23A8845900E52387 /* Debug */,
+				079F784023A8845900E52387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079F784123A8845900E52387 /* Build configuration list for PBXNativeTarget "Practice Clima 1 connecting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F784223A8845900E52387 /* Debug */,
+				079F784323A8845900E52387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079F784423A8845900E52387 /* Build configuration list for PBXNativeTarget "Practice Clima 1 connectingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F784523A8845900E52387 /* Debug */,
+				079F784623A8845900E52387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		079F784723A8845900E52387 /* Build configuration list for PBXNativeTarget "Practice Clima 1 connectingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				079F784823A8845900E52387 /* Debug */,
+				079F784923A8845900E52387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 079F780F23A8845700E52387 /* Project object */;
+}
