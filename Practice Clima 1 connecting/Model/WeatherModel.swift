@@ -33,7 +33,7 @@ struct WeatherModel {
                   return "cloud.rain"
               case 600...622:
                   return "cloud.snow"
-              case 701...781:
+              case 701...782:
                   return "cloud.fog"
               case 800:
                   return "sun.max"

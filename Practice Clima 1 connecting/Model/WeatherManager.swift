@@ -8,7 +8,9 @@
 
 import Foundation
 
+//resend
 // unit 143, 把資料傳回給 Controller 用 protocol
+
 protocol WeatherManagerDelegate {
     func didUpdateWeather(weather: WeatherModel)
 }
