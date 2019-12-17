@@ -64,7 +64,10 @@ struct WeatherManager {
             let max = decodedData.main.temp_max
             print(max)
             
-             let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
+            let mix = decodedData.main.temp_min
+            print(mix)
+            
+            let weather = WeatherModel(conditionId: id, cityName: name, temperature: temp)
              
             
             print(weather.tempertureString)
